@@ -1,0 +1,10 @@
+**/.env*
+**/node_modules
+**/target
+**/build
+**/.git
+.tools
+android
+frontend
+release-test
+**/*.apk

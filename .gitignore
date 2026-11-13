@@ -1,0 +1,62 @@
+node_modules/
+.env*
+!.env.example
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+backend/target/
+android/.gradle/
+android/build/
+android/local.properties
+android/app/build/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+*.iml
+.idea/
+.neon
+.env.local
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*BACKUP*
+backup/
+
+# Android release files and signing keys
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# Private credentials
+secrets/
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*BACKUP*
+backup/
+
+# Android release files and signing keys
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# Private credentials
+secrets/
+
+# Local development tools
+.tools/
+
+
+# APK inspection files
+android/apk-check/

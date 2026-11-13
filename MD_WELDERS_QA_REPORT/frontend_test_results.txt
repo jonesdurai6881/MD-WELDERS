@@ -1,0 +1,30 @@
+
+> md-welders-app@0.1.0 test
+> node --import ./test-setup.js --test ../tests/*.test.js --test-reporter=spec
+
+? English salary statements prepare editable drafts and extract employee count (1.1752ms)
+? Tanglish salary and expense phrases are classified without saving (1.3372ms)
+? Tamil income statements require a positive explicit amount (1.5764ms)
+? ambiguous statements are not silently classified as income (0.2136ms)
+? assistant extraction returns a draft and never writes a transaction (0.2623ms)
+? offline workflow preserves atomic business rules, sync queue, and confirmation (39.405ms)
+? employee records validate, persist, update, and soft-delete without losing history (2.4502ms)
+? work-order worker assignments are created, reconciled, persisted, and isolated by project (4.874ms)
+? assistant answers supported multilingual business queries from local records and drafts transactions safely (12.8127ms)
+? profit counts received payments and actual expenses only (1.1808ms)
+? unpaid bills do not become income (0.1689ms)
+? profit rounds consistently to cents (0.1182ms)
+? salary balance includes partial payments and never reports negative debt (0.1555ms)
+? overpayments are rejected (0.435ms)
+? stock decreases by used quantities (0.1461ms)
+(node:9872) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+? unconfigured sync reports its real status and leaves local records and queue untouched (7.4204ms)
+? tests 16
+? suites 0
+? pass 16
+? fail 0
+? cancelled 0
+? skipped 0
+? todo 0
+? duration_ms 198.2426

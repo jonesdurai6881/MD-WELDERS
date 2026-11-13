@@ -1,0 +1,7 @@
+{
+  "appId": "com.mdwelders.business",
+  "appName": "MD Welders",
+  "webDir": "dist",
+  "android": { "path": "../android" },
+  "bundledWebRuntime": false
+}
